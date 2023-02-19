@@ -1,0 +1,201 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 18-Feb-2023, 5:00:35 pm
+    Author     : 91775
+*/
+/* Set default styles for body, header, and nav */
+
+*{
+        background-color: #fbfcf8;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header h1 {
+    font-family: monospace;
+    font-size: 40px;
+	/*background-color: #2d2d2d;*/}
+
+header{
+	color: #000000;
+	text-align: left;
+	padding: 30px;
+}
+
+
+
+nav {
+        height: 70%;
+        width: 100%;
+        min-width: 600px;
+        display: flex;
+        /*align-items: center;*/
+        float: right;
+        justify-content: space-around;
+        margin: auto;
+	color: #fff;
+	padding: 10px;
+        margin-top: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+        position: relative;
+        font-family: 'poppins',sans-serif;
+        color: #a0a0a0;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding: 0 10px;
+}
+
+nav a:after{
+    content: "";
+    position: absolute;
+    background-color: #ff3c78;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: #ffffff;
+}
+
+nav a:hover:after {
+	text-decoration: underline;
+        width: 100%;
+        
+}
+
+nav a:active{
+    background: #a0a0a0;
+}
+
+
+
+/* Style the sections */
+section {
+	padding: 50px;
+	margin-bottom: 20px;
+}
+
+section h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+section p {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+/* Style the portfolio items */
+section#project ul {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+section#project li {
+	width: 33.33%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+section#project img {
+	width: 100%;
+	height: auto;
+}
+
+section#project h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+/* Style the form */
+form {
+	display: flex;
+	flex-direction: column;
+}
+
+form label {
+	margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+	background-color: #2d2d2d;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+}
+
+form input[type="submit"]:hover {
+	background-color: #333;
+}
+
+.img {
+    margin-left: 56%;
+    margin-top: -286px;
+    width: 287px;
+    height: 320px;
+}
+
+.name{
+        margin-left: 417px;
+    font-size: 30px;
+    margin-top: -69px;
+}
+
+.im{
+    margin-top: 84px;
+    margin-left: 281px;
+    font-size: 102px;
+}
+
+.data{
+    justify-content: center;
+    width: 50%;
+    padding: 7%;
+    margin: 7%;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 15%;
+    font-size: 18px;
+    font-family: cursive;
+    margin-top: 77px;
+    margin-left: 250px;
+
+}
+
+
